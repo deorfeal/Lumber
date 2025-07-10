@@ -92,7 +92,7 @@
             calc(10rem + 2 * ((100vw - 375rem) / (1748 - 375))),
             12rem);height:clamp(10rem,
             calc(10rem + 2 * ((100vw - 375rem) / (1748 - 375))),
-            12rem)}.body--top .header{position:fixed;top:0;background:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(8rem);backdrop-filter:blur(8rem)}.medals-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.medals-list__item{margin-left:clamp(-22rem,
+            12rem)}.body--top .header{position:fixed;top:0;background:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(4rem);backdrop-filter:blur(4rem)}.medals-list{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.medals-list__item{margin-left:clamp(-22rem,
             calc(-18rem - 4 * ((100vw - 375rem) / (1748 - 375))),
             -18rem);width:clamp(32rem,
             calc(32rem + 8 * ((100vw - 375rem) / (1748 - 375))),
