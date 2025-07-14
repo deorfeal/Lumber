@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <title>Home</title>
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/fancybox.css">
     <link rel="stylesheet" href="css/cloudflare.css">
@@ -17,7 +18,7 @@
 
     <div class="big-wrapper">
         <header class="header" id="header">
-            <div class="container">
+            <div class="container" data-aos="fade">
                 <div class="header__inner">
                     <div class="header__wrap">
                         <div class="header__burger burger">
@@ -674,7 +675,7 @@
                 <section class="main__heading heading" id="heading">
                     <div class="heading__tops tops">
                         <ul class="tops__list tops-list">
-                            <li class="tops-list__item">
+                            <li class="tops-list__item" data-aos="fade">
                                 <svg width="29" height="46" viewBox="0 0 29 46" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -781,7 +782,7 @@
                                         fill="#F5F3EF" />
                                 </svg>
                             </li>
-                            <li class="tops-list__item">
+                            <li class="tops-list__item" data-aos="fade">
                                 <svg width="29" height="46" viewBox="0 0 29 46" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -888,7 +889,7 @@
                                         fill="#F5F3EF" />
                                 </svg>
                             </li>
-                            <li class="tops-list__item">
+                            <li class="tops-list__item" data-aos="fade">
                                 <svg width="29" height="46" viewBox="0 0 29 46" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -998,7 +999,7 @@
                         </ul>
                     </div>
                     <div class="heading__directions directions">
-                        <nav class="directions__menu menu">
+                        <nav class="directions__menu menu" data-aos="fade-up">
                             <ul class="menu__list menu-list">
                                 <li class="menu-list__item">
                                     <a class="menu-list__link" href="#team">
@@ -1042,7 +1043,7 @@
                                 </li>
                             </ul>
                         </nav>
-                        <div class="directions__book book">
+                        <div class="directions__book book" data-aos="fade-up">
                             <a class="book__suplink btn btn--glass" href="#">
                                 <svg width="16" height="16" viewBox="0 0 13 13" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1086,7 +1087,7 @@
                                     <img src="images/heading-img-1.jpg" alt="img">
                                 </picture>
                                 <div class="container">
-                                    <div class="heading-slide__body heading-body">
+                                    <div class="heading-slide__body heading-body" data-aos="fade">
                                         <div class="heading-body__arrows heading-arrows">
                                             <div class="heading-arrows__arrow heading-arrow heading-arrow--prev">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -2351,14 +2352,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="heading-swiper__pagination pagination"></div>
+                        <div class="heading-swiper__pagination pagination" data-aos="fade"></div>
                     </div>
                 </section>
                 <section class="main__team team" id="team">
                     <div class="container">
                         <div class="team__head team-head">
                             <div class="team-head__titling titling">
-                                <div class="titling__head titling-head">
+                                <div class="titling__head titling-head" data-aos="fade-right">
                                     <div class="titling-head__suptext">
                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -2384,7 +2385,7 @@
                                         </span>
                                     </h2>
                                 </div>
-                                <p class="titling__text">
+                                <p class="titling__text" data-aos="fade">
                                     У кожного клієнта — свій характер.
                                     <span>
                                         Ми підкреслюємо найкраще
@@ -2393,7 +2394,7 @@
                             </div>
                             <div class="team-head__info team-info">
                                 <ul class="team-info__list team-list">
-                                    <li class="team-list__item">
+                                    <li class="team-list__item" data-aos="fade">
                                         <div class="team-list__suptext">
                                             Цінності
                                         </div>
@@ -2401,7 +2402,7 @@
                                             Чесність, якість, кайф
                                         </div>
                                     </li>
-                                    <li class="team-list__item">
+                                    <li class="team-list__item" data-aos="fade">
                                         <div class="team-list__suptext">
                                             Історія
                                         </div>
@@ -2410,7 +2411,7 @@
                                             у 2016
                                         </div>
                                     </li>
-                                    <li class="team-list__item">
+                                    <li class="team-list__item" data-aos="fade">
                                         <div class="team-list__suptext">
                                             Місія
                                         </div>
@@ -2426,12 +2427,12 @@
                     <div class="team__inner">
                         <picture class="team__img">
                             <source srcset="images/team-img.webp" type="image/webp">
-                            <img src="images/team-img.jpg" alt="team" loading="lazy">
+                            <img src="images/team-img.jpg" alt="team" loading="lazy" data-aos="zoom-out">
                         </picture>
                         <div class="container">
                             <div class="team__body team-body">
                                 <div class="team-body__wrapper">
-                                    <p class="team-body__text">
+                                    <p class="team-body__text" data-aos="fade">
                                         Ми — не просто барбери. Ми — фанати свого ремесла.
                                         <span>
                                             Кожен стиль, кожна борода, кожна
@@ -2439,13 +2440,15 @@
                                         </span>
                                         Ми працюємо, щоб ти відчував себе найкраще.
                                     </p>
-                                    <a class="team-body__link btn btn--glass btn--small" href="#">
-                                        <span>
-                                            Дивитись команду
-                                        </span>
-                                    </a>
+                                    <div class="team-body__wrap" data-aos="fade">
+                                        <a class="team-body__link btn btn--glass btn--small" href="#">
+                                            <span>
+                                                Дивитись команду
+                                            </span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <h5 class="team-body__title title">
+                                <h5 class="team-body__title title" data-aos="fade-up">
                                     Команда Lumberjack
                                     <span>
                                         Barberhouse
@@ -2458,7 +2461,7 @@
                 <section class="main__services services" id="services">
                     <div class="container">
                         <div class="services__titling titling">
-                            <div class="titling__head titling-head">
+                            <div class="titling__head titling-head" data-aos="fade-right">
                                 <div class="titling-head__suptext">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -2484,7 +2487,7 @@
                                     </span>
                                 </h2>
                             </div>
-                            <p class="titling__text">
+                            <p class="titling__text" data-aos="fade">
                                 <span>
                                     У Lumberjack Barberhouse ми пропонуємо класичні та сучасні послуги:
                                 </span>
@@ -2497,8 +2500,8 @@
                             </p>
                         </div>
                         <div class="services__inner">
-                            <div class="services__barbers barbers">
-                                <ul class="barbers__list barbers-list">
+                            <div class="services__barbers barbers" data-aos="fade-up">
+                                <ul class=" barbers__list barbers-list">
                                     <li class="barbers-list__item">
                                         Цирульник
                                     </li>
@@ -2518,7 +2521,7 @@
                             </div>
                             <div class="services__servicess servicess">
                                 <ul class="servicess__list servicess-list">
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Чоловіча стрижка
@@ -2546,7 +2549,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Стрижка бороди
@@ -2574,7 +2577,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Королівське гоління
@@ -2602,7 +2605,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Уход за обличчям
@@ -2630,7 +2633,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Дитяча стрижка
@@ -2658,7 +2661,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Чоловіча стрижка
@@ -2686,7 +2689,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Королівське гоління
@@ -2714,7 +2717,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Уход за обличчям
@@ -2742,7 +2745,7 @@
                                             </div>
                                         </a>
                                     </li>
-                                    <li class="servicess-list__item">
+                                    <li class="servicess-list__item" data-aos="fade-up">
                                         <a class="servicess-list__inner" href="#">
                                             <h5 class="servicess-list__title">
                                                 Дитяча стрижка
@@ -2773,7 +2776,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="services__links links">
+                        <div class="services__links links" data-aos="fade">
                             <a class="links__link btn btn--big btn--red btn--left" href="#">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -2812,7 +2815,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="services__cost-swiper cost-swiper swiper">
+                        <div class="services__cost-swiper cost-swiper swiper" data-aos="fade">
                             <div class="swiper-wrapper">
                                 <div class="cost-swiper__slide cost-slide swiper-slide">
                                     <a class="cost-slide__link" href="#">
@@ -2955,7 +2958,7 @@
                 <section class="main__news news" id="news">
                     <div class="container">
                         <div class="news__titling titling">
-                            <div class="titling__head titling-head">
+                            <div class="titling__head titling-head" data-aos="fade-right">
                                 <div class="titling-head__suptext">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -2981,7 +2984,7 @@
                                     </span>
                                 </h2>
                             </div>
-                            <div class="titling__arrows arrows">
+                            <div class="titling__arrows arrows" data-aos="fade">
                                 <div class="arrows__arrow arrow arrow--prev arrow--news-prev glass">
                                     <svg width="8" height="10" viewBox="0 0 8 10" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -3001,7 +3004,7 @@
                             </div>
                         </div>
                         <div class="news__inner">
-                            <div class="news__sections news-sections">
+                            <div class="news__sections news-sections" data-aos="fade-up">
                                 <div class="news-sections__tubs tubs tubs--news">
                                     <ul class="tubs__list tubs-list">
                                         <li class="tubs-list__item tub tub--active" data-tubs="news">
@@ -3046,7 +3049,7 @@
                                     Переглянути усі історії
                                 </a>
                             </div>
-                            <div class="news__wrapper">
+                            <div class="news__wrapper" data-aos="fade">
                                 <div class="news__tub-element tub-element tub-element--active" data-tubs="news">
                                     <div class="news__swiper news-swiper news-swiper--first swiper">
                                         <div class="swiper-wrapper">
@@ -4749,7 +4752,7 @@
                 <section class="main__recalls recalls" id="recalls">
                     <div class="container">
                         <div class="recalls__titling titling">
-                            <div class="titling__head titling-head">
+                            <div class="titling__head titling-head" data-aos="fade-right">
                                 <div class="titling-head__suptext">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -4775,7 +4778,7 @@
                                     </span>
                                 </h2>
                             </div>
-                            <p class="titling__text">
+                            <p class="titling__text" data-aos="fade">
                                 Ми проаналізували понад 1000 реальних відгуків з Google, Instagram та інших платформ за
                                 допомогою штучного інтелекту.
                                 <span>
@@ -4785,7 +4788,7 @@
                         </div>
                         <div class="recalls__inner">
                             <ul class="recalls__list recalls-list">
-                                <li class="recalls-list__item">
+                                <li class="recalls-list__item" data-aos="zoom-out">
                                     <div class="recalls-list__inner">
                                         <div class="recalls-list__percent">
                                             92%
@@ -4799,7 +4802,7 @@
                                         <div class="recalls-lines__line" style="width: 8%;"></div>
                                     </div>
                                 </li>
-                                <li class="recalls-list__item">
+                                <li class="recalls-list__item" data-aos="zoom-out">
                                     <div class="recalls-list__inner">
                                         <div class="recalls-list__percent">
                                             86%
@@ -4813,7 +4816,7 @@
                                         <div class="recalls-lines__line" style="width: 14%;"></div>
                                     </div>
                                 </li>
-                                <li class="recalls-list__item">
+                                <li class="recalls-list__item" data-aos="zoom-out">
                                     <div class="recalls-list__inner">
                                         <div class="recalls-list__percent">
                                             81%
@@ -4828,7 +4831,7 @@
                                         <div class="recalls-lines__line" style="width: 19%;"></div>
                                     </div>
                                 </li>
-                                <li class="recalls-list__item">
+                                <li class="recalls-list__item" data-aos="zoom-out">
                                     <div class="recalls-list__inner">
                                         <div class="recalls-list__percent">
                                             74%
@@ -4842,7 +4845,7 @@
                                         <div class="recalls-lines__line" style="width: 26%;"></div>
                                     </div>
                                 </li>
-                                <li class="recalls-list__item">
+                                <li class="recalls-list__item" data-aos="zoom-out">
                                     <div class="recalls-list__inner">
                                         <div class="recalls-list__percent">
                                             69%
@@ -4856,7 +4859,7 @@
                                         <div class="recalls-lines__line" style="width: 31%;"></div>
                                     </div>
                                 </li>
-                                <li class="recalls-list__item">
+                                <li class="recalls-list__item" data-aos="zoom-out">
                                     <div class="recalls-list__inner">
                                         <div class="recalls-list__percent">
                                             63%
@@ -4873,7 +4876,7 @@
                             </ul>
                         </div>
                         <div class="recalls__bottom recalls-bottom">
-                            <div class="recalls-bottom__text">
+                            <div class="recalls-bottom__text" data-aos="fade-up">
                                 Займаємо 1 місце в Україні за кількістю задоволених клієнтів, маючи
                                 <span>
                                     24 000+ <br> відгуків з
@@ -4886,7 +4889,7 @@
                                         fill="#B22222" />
                                 </svg>
                             </div>
-                            <div class="recalls-bottom__wrapper">
+                            <div class="recalls-bottom__wrapper" data-aos="fade-up">
                                 <div class="recalls-bottom__swiper recalls-swiper swiper">
                                     <div class="swiper-wrapper">
                                         <div class="recalls-swiper__slide recalls-slide swiper-slide">
@@ -5236,17 +5239,17 @@
                 <div class="banner">
                     <picture class="banner__img banner-img">
                         <source srcset="images/banner-img-1.webp" type="image/webp">
-                        <img src="images/banner-img-1.jpg" alt="img" loading="lazy">
+                        <img src="images/banner-img-1.jpg" alt="img" loading="lazy" data-aos="zoom-out">
                     </picture>
                     <picture class="banner__img banner-img">
                         <source srcset="images/banner-img-mob-1.webp" type="image/webp">
-                        <img src="images/banner-img-mob-1.jpg" alt="img" loading="lazy">
+                        <img src="images/banner-img-mob-1.jpg" alt="img" loading="lazy" data-aos="zoom-out">
                     </picture>
                 </div>
                 <section class="main__achievements achievements" id="achievements">
                     <div class="container">
                         <div class="achievements__titling titling">
-                            <div class="titling__head titling-head">
+                            <div class="titling__head titling-head" data-aos="fade-right">
                                 <div class="titling-head__suptext">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -5273,8 +5276,8 @@
                                 </h2>
                             </div>
                             <div class="titling__wrapper">
-                                <p class="titling__text titling__text--decorated">
-                                    <svg width="40" height="64" viewBox="0 0 40 64" fill="none"
+                                <p class="titling__text titling__text--decorated"> 
+                                    <svg data-aos="fade-left" width="40" height="64" viewBox="0 0 40 64" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M5.98755 39.1562C5.17427 39.1562 4.36099 39.2994 3.62165 39.5142C3.25198 39.6574 3.10411 40.0153 3.25198 40.3017C3.84345 41.4471 4.5828 42.3778 5.39608 43.1652C6.43116 44.0243 7.54018 44.6686 8.6492 45.0981C9.31461 45.3129 10.054 45.3845 10.7194 45.3845C12.1241 45.3845 13.381 44.955 14.564 44.2391C14.8597 44.0243 14.9336 43.6664 14.7118 43.38C14.0464 42.6641 13.381 42.0198 12.6417 41.4471C11.7544 40.7312 10.6454 40.3017 9.68428 39.8721C8.50133 39.371 7.24444 39.1562 5.98755 39.1562Z"
@@ -5322,14 +5325,14 @@
                                             d="M20.476 45.245C20.5499 45.7461 20.7717 46.2472 20.9196 46.6768C21.2893 47.4643 21.7329 48.1801 22.3983 48.7529C22.4722 48.8244 22.6201 48.896 22.768 48.896C22.9898 48.896 23.1376 48.8244 23.2855 48.6097C23.8031 47.8222 24.1727 46.9631 24.3945 46.1756C24.6903 45.1734 24.8381 44.1712 24.9121 43.1689C24.986 42.1667 24.8381 41.3076 24.6163 40.4485C24.4685 39.8042 24.2467 39.2315 23.877 38.7304C23.8031 38.5872 23.5812 38.5156 23.4334 38.5156C23.2855 38.5156 23.1376 38.5872 22.9898 38.6588C21.4371 40.0906 20.5499 41.7371 20.3281 43.67C20.4021 44.1712 20.4021 44.7439 20.476 45.245Z"
                                             fill="#B22222" />
                                     </svg>
-                                    <span>
+                                    <span data-aos="fade">
                                         Чемпіонати, медалі, публікації —
                                         <span>
                                             ми ростемо не тільки в очах клієнтів, а й у професійній
                                             спільноті
                                         </span>
                                     </span>
-                                    <svg width="40" height="64" viewBox="0 0 40 64" fill="none"
+                                    <svg data-aos="fade-right" width="40" height="64" viewBox="0 0 40 64" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M34.6533 43.2166C35.4694 42.4282 36.2113 41.4248 36.8049 40.3498C36.9533 40.0631 36.8049 39.7048 36.4339 39.5615C35.692 39.3465 34.8759 39.2031 34.0598 39.2031C32.7986 39.2031 31.5373 39.4898 30.4244 39.9198C29.3857 40.3498 28.2729 40.8515 27.4568 41.4965C26.7149 42.0699 26.0471 42.7149 25.3794 43.4316C25.1568 43.7182 25.231 44.0766 25.5278 44.2916C26.7149 45.0083 27.9761 45.4383 29.3857 45.4383C30.0535 45.4383 30.7954 45.3666 31.4631 45.1516C32.576 44.7216 33.6888 44.0766 34.6533 43.2166Z"
@@ -5378,7 +5381,7 @@
                                             fill="#B22222" />
                                     </svg>
                                 </p>
-                                <div class="titling__arrows arrows">
+                                <div class="titling__arrows arrows" data-aos="fade">
                                     <div class="arrows__arrow arrow arrow--prev arrow--achievements-prev glass">
                                         <svg width="8" height="10" viewBox="0 0 8 10" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -5398,7 +5401,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="achievements__inner">
+                        <div class="achievements__inner" data-aos="fade">
                             <div class="achievements__swiper achievements-swiper swiper">
                                 <div class="achievements-swiper__arrows arrows">
                                     <div class="arrows__arrow arrow arrow--prev arrow--achievements-prev glass">
@@ -5723,9 +5726,11 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="achievements__link btn btn--small btn--glass" href="#">
-                            УСІ НАГОРОДИ
-                        </a>
+                        <div class="achievements__wrap" data-aos="fade-up">
+                            <a class="achievements__link btn btn--small btn--glass" href="#">
+                                УСІ НАГОРОДИ
+                            </a>
+                        </div>
                     </div>
                 </section>
                 <section class="main__partnerships partnerships" id="partnerships">
@@ -5733,7 +5738,7 @@
                         <div class="partnerships__inner">
                             <div class="partnerships__partnership partnership">
                                 <div class="partnership__inner">
-                                    <div class="partnership__titling titling">
+                                    <div class="partnership__titling titling" data-aos="fade-up">
                                         <div class="titling__head titling-head">
                                             <div class="titling-head__suptext">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -5768,7 +5773,7 @@
                                     </div>
                                     <div class="partnership__body partnership-body">
                                         <ul class="partnership-body__list partnership-list">
-                                            <li class="partnership-list__item">
+                                            <li class="partnership-list__item" data-aos="zoom-out">
                                                 <a class="partnership-list__inner" href="#">
                                                     <div class="partnership-list__wrapper">
                                                         <picture class="partnership-list__img">
@@ -5783,7 +5788,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="partnership-list__item">
+                                            <li class="partnership-list__item" data-aos="zoom-out">
                                                 <a class="partnership-list__inner" href="#">
                                                     <div class="partnership-list__wrapper">
                                                         <picture class="partnership-list__img">
@@ -5798,7 +5803,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="partnership-list__item">
+                                            <li class="partnership-list__item" data-aos="zoom-out">
                                                 <a class="partnership-list__inner" href="#">
                                                     <div class="partnership-list__wrapper">
                                                         <picture class="partnership-list__img">
@@ -5813,7 +5818,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="partnership-list__item">
+                                            <li class="partnership-list__item" data-aos="zoom-out">
                                                 <a class="partnership-list__inner" href="#">
                                                     <div class="partnership-list__wrapper">
                                                         <picture class="partnership-list__img">
@@ -5828,7 +5833,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="partnership-list__item">
+                                            <li class="partnership-list__item" data-aos="zoom-out">
                                                 <a class="partnership-list__inner" href="#">
                                                     <div class="partnership-list__wrapper">
                                                         <picture class="partnership-list__img">
@@ -5843,7 +5848,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="partnership-list__item">
+                                            <li class="partnership-list__item". data-aos="zoom-out">
                                                 <a class="partnership-list__inner" href="#">
                                                     <div class="partnership-list__wrapper">
                                                         <picture class="partnership-list__img">
@@ -5864,7 +5869,7 @@
                             </div>
                             <div class="partnerships__collaborations collaborations">
                                 <div class="collaborations__inner">
-                                    <div class="collaborations__titling titling">
+                                    <div class="collaborations__titling titling" data-aos="fade-up">
                                         <div class="titling__head titling-head">
                                             <div class="titling-head__suptext">
                                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -5901,7 +5906,7 @@
                                     </div>
                                     <div class="collaborations__body collaborations-body">
                                         <ul class="collaborations-body__list collaborations-list">
-                                            <li class="collaborations-list__item">
+                                            <li class="collaborations-list__item" data-aos="zoom-out">
                                                 <a class="collaborations-list__collaborate collaborate" href="#">
                                                     <div class="collaborate__arrow">
                                                         <svg width="7" height="8" viewBox="0 0 7 8" fill="none"
@@ -5922,7 +5927,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="collaborations-list__item">
+                                            <li class="collaborations-list__item" data-aos="zoom-out">
                                                 <a class="collaborations-list__collaborate collaborate" href="#">
                                                     <div class="collaborate__arrow">
                                                         <svg width="7" height="8" viewBox="0 0 7 8" fill="none"
@@ -5942,7 +5947,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="collaborations-list__item">
+                                            <li class="collaborations-list__item" data-aos="zoom-out">
                                                 <a class="collaborations-list__collaborate collaborate" href="#">
                                                     <div class="collaborate__arrow">
                                                         <svg width="7" height="8" viewBox="0 0 7 8" fill="none"
@@ -5962,7 +5967,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="collaborations-list__item">
+                                            <li class="collaborations-list__item" data-aos="zoom-out">
                                                 <a class="collaborations-list__collaborate collaborate" href="#">
                                                     <div class="collaborate__arrow">
                                                         <svg width="7" height="8" viewBox="0 0 7 8" fill="none"
@@ -5982,7 +5987,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="collaborations-list__item">
+                                            <li class="collaborations-list__item" data-aos="zoom-out">
                                                 <a class="collaborations-list__collaborate collaborate" href="#">
                                                     <div class="collaborate__arrow">
                                                         <svg width="7" height="8" viewBox="0 0 7 8" fill="none"
@@ -6004,7 +6009,7 @@
                                                     </div>
                                                 </a>
                                             </li>
-                                            <li class="collaborations-list__item">
+                                            <li class="collaborations-list__item" data-aos="zoom-out">
                                                 <a class="collaborations-list__collaborate collaborate" href="#">
                                                     <div class="collaborate__arrow">
                                                         <svg width="7" height="8" viewBox="0 0 7 8" fill="none"
@@ -6026,9 +6031,11 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <a class="collaborations__link btn btn--small btn--glass" href="#">
-                                        Запропонувати партнерство
-                                    </a>
+                                    <div class="collaborations__wrap" data-aos="fade-up">
+                                        <a class="collaborations__link btn btn--small btn--glass" href="#">
+                                            Запропонувати партнерство
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -6038,18 +6045,18 @@
                     <div class="banner">
                         <picture class="banner__img banner-img">
                             <source srcset="images/banner-img-2.webp" type="image/webp">
-                            <img src="images/banner-img-2.jpg" alt="img" loading="lazy">
+                            <img src="images/banner-img-2.jpg" alt="img" loading="lazy" data-aos="zoom-out">
                         </picture>
                         <picture class="banner__img banner-img">
                             <source srcset="images/banner-img-mob-2.webp" type="image/webp">
-                            <img src="images/banner-img-mob-2.jpg" alt="img" loading="lazy">
+                            <img src="images/banner-img-mob-2.jpg" alt="img" loading="lazy" data-aos="zoom-out">
                         </picture>
                     </div>
                 </div>
                 <section class="main__faq faq" id="faq">
                     <div class="container">
                         <div class="faq__titling titling">
-                            <div class="titling__head titling-head">
+                            <div class="titling__head titling-head" data-aos="fade-right">
                                 <div class="titling-head__suptext">
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -6078,7 +6085,7 @@
                         </div>
                         <div class="faq__inner">
                             <ul class="faq__list faq-list">
-                                <li class="faq-list__item faq-list__item--active">
+                                <li class="faq-list__item faq-list__item--active" data-aos="fade-up">
                                     <div class="faq-list__head faq-head">
                                         <div class="faq-head__text">
                                             Чи можна записатись онлайн?
@@ -6104,7 +6111,7 @@
                                         </p>
                                     </div>
                                 </li>
-                                <li class="faq-list__item">
+                                <li class="faq-list__item" data-aos="fade-up">
                                     <div class="faq-list__head faq-head">
                                         <div class="faq-head__text">
                                             Чи можна прийти зі своїм шампунем або засобами?
@@ -6130,7 +6137,7 @@
                                         </p>
                                     </div>
                                 </li>
-                                <li class="faq-list__item">
+                                <li class="faq-list__item" data-aos="fade-up">
                                     <div class="faq-list__head faq-head">
                                         <div class="faq-head__text">
                                             Чи є готівковий або безготівковий розрахунок?
@@ -6158,7 +6165,7 @@
                                 </li>
                             </ul>
                             <ul class="faq__list faq-list">
-                                <li class="faq-list__item">
+                                <li class="faq-list__item" data-aos="fade-up">
                                     <div class="faq-list__head faq-head">
                                         <div class="faq-head__text">
                                             Чи є окрема зона для очікування?
@@ -6184,7 +6191,7 @@
                                         </p>
                                     </div>
                                 </li>
-                                <li class="faq-list__item">
+                                <li class="faq-list__item" data-aos="fade-up">
                                     <div class="faq-list__head faq-head">
                                         <div class="faq-head__text">
                                             Що, якщо я спізнююсь?
@@ -6210,7 +6217,7 @@
                                         </p>
                                     </div>
                                 </li>
-                                <li class="faq-list__item">
+                                <li class="faq-list__item" data-aos="fade-up">
                                     <div class="faq-list__head faq-head">
                                         <div class="faq-head__text">
                                             Чи можна купити подарунковий сертифікат?
@@ -6238,7 +6245,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="faq__links links">
+                        <div class="faq__links links" data-aos="fade">
                             <a class="links__link btn btn--big btn--red btn--left open-contact" href="#">
                                 <span>
                                     ЗАДАТИ ПИТАННЯ
@@ -6269,7 +6276,7 @@
                 <section class="main__contacts contacts" id="contacts">
                     <div class="container">
                         <div class="contacts__titling titling">
-                            <div class="titling__head titling-head">
+                            <div class="titling__head titling-head" data-aos="fade-right">
                                 <div class="titling-head__suptext">
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -6292,10 +6299,10 @@
                                 </h2>
                             </div>
                             <div class="titling__wrapper">
-                                <p class="titling__text">
+                                <p class="titling__text" data-aos="fade">
                                     З понеділка по неділю від 10:00 до 21:00
                                 </p>
-                                <div class="titling__socials socials">
+                                <div class="titling__socials socials" data-aos="fade">
                                     <ul class="socials__list socials-list glass">
                                         <li class="socials-list__item">
                                             <a class="socials-list__link" href="#">
@@ -6379,7 +6386,7 @@
                             </div>
                         </div>
                         <div class="contacts__inner">
-                            <div class="contacts__addresses addresses">
+                            <div class="contacts__addresses addresses" data-aos="fade-up">
                                 <ul class="addresses__list addresses-list">
                                     <li class="addresses-list__item addresses-list__item--active">
                                         <div class="addresses-list__icon">
@@ -6531,7 +6538,7 @@
                                     </span>
                                 </a>
                             </div>
-                            <div class="contacts__map map" id="map"></div>
+                            <div class="contacts__map map" id="map" data-aos="zoom-out"></div>
                         </div>
                         <div class="contacts__socials socials">
                             <ul class="socials__list socials-list glass">
@@ -6685,7 +6692,7 @@
                     </span>
                 </a>
             </main>
-            <footer class="footer">
+            <footer class="footer" data-aos="fade">
                 <div class="container">
                     <div class="footer__inner">
                         <div class="footer__top footer-top">
@@ -7104,7 +7111,9 @@
         </div>
     </div>
 
+    <script src="js/jquery.js"></script>
     <script src="js/cloudflare.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/swiper.js"></script>
     <script src="js/fancybox.js"></script>
     <script src="js/main.min.js"></script>
